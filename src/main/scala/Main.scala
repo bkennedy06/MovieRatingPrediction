@@ -11,7 +11,7 @@ object Main {
       .getOrCreate()
 
     try {
-      val processedData = Preprocess.run(spark)
+      val processedData = Preprocess.preprocess(spark)
       println(s"Preprocessing completed. ${processedData.count()} records processed.")
 
       val predictions = TrainModel.run(processedData)
