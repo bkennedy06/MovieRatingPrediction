@@ -1,5 +1,6 @@
 Outline and build configuration: 2.5 hours - Bryce Kennedy
 Readme: 15 minutes - Bryce Kennedy
 Main function and placeholders: 1.5 hours - Bryce Kennedy
-Preprocess: 4 hours - Maxwell Dubow & Bryce Kennedy
+Preprocess up to joining ratings and basics: 2 hours - Bryce Kennedy
 One-hot encoding for preprocessing: 3.5 hours - Maxwell Dubow
+Train model: 1.5 hours - Bryce Kennedy
