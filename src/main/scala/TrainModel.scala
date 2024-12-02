@@ -26,7 +26,7 @@ object TrainModel {
     val lrModel = lr.fit(assembledDf)
 
     val predictions = lrModel.transform(assembledDf)
-
+    predictions.write.mode("overwrite").parquet("data/predictions.parquet")
     predictions
   }
 

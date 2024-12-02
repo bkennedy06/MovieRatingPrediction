@@ -17,7 +17,7 @@ object Main {
       val predictions = TrainModel.run(processedData)
       println(s"Training completed. Predictions generated for ${predictions.count()} movies.")
 
-      EvalModel.run(predictions)
+      EvalModel.evaluate(predictions)
 
       println("Pipeline done")
     } catch {
